@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import React from "react";
-
 const ArtistCard = ({ track }) => {
   const navigate = useNavigate();
   return (

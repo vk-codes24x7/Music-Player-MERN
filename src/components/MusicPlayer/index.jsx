@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { UseSelector, useDispatch, useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 import {
   nextSong,

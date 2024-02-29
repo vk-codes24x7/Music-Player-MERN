@@ -21,7 +21,7 @@ const Links = [
 const NavLinks = ({ handleClick }) => {
   return (
     <div className="mt-10">
-      {links.map((item) => (
+      {Links.map((item) => (
         <NavLink
           key={item.name}
           to={item.to}
